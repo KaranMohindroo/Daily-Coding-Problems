@@ -1,8 +1,7 @@
 # Daily-Coding-Problems
 Solutions to Coding problems Daily
-## Daily Coding Problem
-
-Solutions to problems sent by dailycodingproblem.com
+Source dailycodingproblem.com
+Language used - C/C++
 
 ---
 
@@ -13,4 +12,4 @@ For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 
 Bonus: Can you do this in one pass?
 
-[Solution](solutions/problem_001.py)
+[Solution](Solutions/1.cpp)

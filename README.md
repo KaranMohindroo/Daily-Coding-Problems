@@ -381,4 +381,28 @@ You may augment the node to add parent pointers or any other property you would 
 
 [Solution](solutions/problem_024.py)
 
+---
+
+#### Problem 212
+
+This problem was asked by Dropbox.
+
+Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C", ..., "AA", "AB", ..., "ZZ", "AAA", "AAB", ....
+
+Given a column number, return its alphabetical column id. For example, given 1, return "A". Given 27, return "AA".
+
+[Solution](Solutions/212.cpp)
+
+---
+
+#### Problem 214
+
+This problem was asked by Stripe.
+
+Given an integer n, return the length of the longest consecutive run of 1s in its binary representation.
+
+For example, given 156, you should return 3.
+
+[Solution](Solutions/214.cpp)
+
 

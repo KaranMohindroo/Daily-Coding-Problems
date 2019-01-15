@@ -285,7 +285,7 @@ For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7,
 
 Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
 
-[Solution](solutions/problem_018.py)
+[Solution](Solutions/018.cpp)
 
 ---
 
@@ -297,7 +297,7 @@ A builder is looking to build a row of N houses that can be of K different color
 
 Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
 
-[Solution](solutions/problem_019.py)
+[Solution](Solutions/019.cpp)
 
 ---
 
@@ -313,7 +313,7 @@ In this example, assume nodes with the same value are the exact same node object
 
 Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
 
-[Solution](solutions/problem_020.py)
+[Solution](Solutions/020.cpp)
 
 ---
 
@@ -325,7 +325,7 @@ Given an array of time intervals (start, end) for classroom lectures (possibly o
 
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
-[Solution](solutions/problem_021.py)
+[Solution](Solutions/021.cpp)
 
 ---
 
@@ -339,7 +339,7 @@ For example, given the set of words 'quick', 'brown', 'the', 'fox', and the stri
 
 Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
 
-[Solution](solutions/problem_022.py)
+[Solution](Solutions/022.cpp)
 
 ---
 
@@ -362,7 +362,7 @@ For example, given the following board:
 
 and start = (3, 0) (bottom left) and end = (0, 0) (top left), the minimum number of steps required to reach the end is 7, since we would need to go through (1, 2) because there is a wall everywhere else on the second row.
 
-[Solution](solutions/problem_023.py)
+[Solution](Solutions/023.cpp)
 
 ---
 
@@ -379,7 +379,93 @@ lock, which attempts to lock the node. If it cannot be locked, then it should re
 unlock, which unlocks the node. If it cannot be unlocked, then it should return false. Otherwise, it should unlock it and return true.
 You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
 
-[Solution](solutions/problem_024.py)
+[Solution](Solutions/024.cpp)
+
+---
+
+#### Problem 25
+
+This problem was asked by Facebook.
+
+Implement regular expression matching with the following special characters:
+
+. (period) which matches any single character
+* (asterisk) which matches zero or more of the preceding element
+That is, implement a function that takes in a string and a valid regular expression and returns whether or not the string matches the regular expression.
+
+For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
+
+Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false
+
+[Solution](Solutions/025.cpp)
+
+---
+
+#### Problem 26
+
+This problem was asked by Google.
+
+Given a singly linked list and an integer k, remove the kth last element from the list. k is guaranteed to be smaller than the length of the list.
+
+The list is very long, so making more than one pass is prohibitively expensive.
+
+Do this in constant space and in one pass.
+
+[Solution](Solutions/026.cpp)
+
+---
+
+#### Problem 27
+
+This problem was asked by Facebook.
+
+Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
+
+For example, given the string "([])[]({})", you should return true.
+
+Given the string "([)]" or "((()", you should return false.
+
+[Solution](Solutions/027.cpp)
+
+---
+
+#### Problem 29
+
+This problem was asked by Amazon.
+
+Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
+
+Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
+
+[Solution](Solutions/029.cpp)
+
+---
+
+#### Problem 30
+
+This problem was asked by Facebook.
+
+You are given an array of non-negative integers that represents a two-dimensional elevation map where each element is unit-width wall and the integer is the height. Suppose it will rain and all spots between two walls get filled up.
+
+Compute how many units of water remain trapped on the map in O(N) time and O(1) space.
+
+For example, given the input [2, 1, 2], we can hold 1 unit of water in the middle.
+
+Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
+
+[Solution](Solutions/030.cpp)
+
+---
+
+#### Problem 31
+
+This problem was asked by Google.
+
+The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
+
+Given two strings, compute the edit distance between them.
+
+[Solution](Solutions/031.cpp)
 
 ---
 
